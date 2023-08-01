@@ -1,0 +1,137 @@
+<html>
+<head>
+<title> Application Form</title>
+<style>
+h3{
+background-color:gray;
+}
+   table{
+        width: 40%;
+        height:30PX;
+       
+    }
+    table,tr,td,th{
+        border:1px solid black;
+        border-collapse: collapse;
+       
+    }
+
+
+</style>
+</head>
+<body>
+<h1>APPLICATION FORM</h1>
+<h3>A.General Question</h3>
+<p><b>Proposed Insured's Name:</b></p>
+<table>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table><br>
+<form>
+<label><b>Birth Date:</b></label>
+<input type="date">
+        <b>Gender</b>:Male<input type="radio" name=gen>
+Female<input type="radio" name=gen><br><br>
+<label><b>Address:</b></label>
+<input type="text"><br><br>
+<label><b>Phone Number</b></label>
+<input type="number" max="10">
+<label><b>Email:</b></label>
+<input type="text"><br><br>
+<label><b>ID Number:</b></label>
+<input type="number">
+<label><b>Social security number</b></label>
+<input type="number"><br><br>
+<label><b>Status:</b></label>
+Single:<input type="checkbox" name="si">
+Married:<input type="checkbox" name="si">
+Devorced:<input type="checkbox" name="si">
+Other:<input type="checkbox" name="si"><br><br>
+<label><b>Occupation:</b></label>
+<input type="text">
+<label><b>Are you a retiree:</b></label>
+Yes<input type="radio">
+No<input type="radio">
+<h3>B.Type of Health Converage</h3>
+<table name=second>
+<tr><td><label>employee:</label>
+Yes<input type="radio" name=choice>
+No<input type="radio" name=choice>
+</td>
+<td>
+<label>Spouse:</label>
+Yes<input type="radio" name=sechoice>
+No<input type="radio" name=sechoice>
+</td>
+<td>
+<label>Children:</label>
+Yes<input type="radio" name=thchoice>
+No<input type="radio" name=thchoice>
+</td>
+</tr>
+</table>
+<h4>Complete if spouse/children are proposed for insurance:</h4>
+<table class="second">
+<th>
+<td>Name</td>
+<td>SSN No.</td>
+<td>Relationship to proposed insured</td>
+<td>Birth Date</td>
+<td>Age</td>
+<td>Sex</td>
+</th>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+
+</form>
+</body>
+
+</html>
