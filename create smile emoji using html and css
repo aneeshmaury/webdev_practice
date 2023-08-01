@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smile Emoji</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <span style="font-size: 48px;">😊</span>
+    </div>
+</body>
+</html>
