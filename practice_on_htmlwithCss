@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>practice on css</title>
+<style>
+.header{
+background-color:#34ebcc;
+width:520px;
+height:30px;
+text-align:center;
+}
+.navigation{
+background-color:#34eb61;
+width:520px;
+height:30px;
+text-align:center;
+margin-top:25px;
+}
+.aside{ 
+background-color:#0fff9f;
+width:196px;
+height:309px;
+text-align:center;
+float:left;
+}
+.Content{
+background-color:#75a0e0;
+width:300px;
+height:140px;
+text-align:center;
+float:left;
+margin-left:20px;
+
+}
+.section{
+background-color:#20345e;
+width:300px;
+height:140px;
+margin-top:20px;
+margin-left:218px;
+margin-top:200px;
+text-align:center;
+}
+.footer{
+background-color:#34ebcc;
+width:520px;
+height:30px;
+margin-top:20px;
+margin-top:2px;
+
+}
+</style>
+
+</head>
+<body>
+<p class="header">Header</p>
+<p class="navigation">Navigation</p>
+<p class="aside">Aside</p>
+<p class="content">Content</p>
+<p class="Section">Section</p>
+<p class="footer">Footer</p>
+</body>
+
+
+</html>
