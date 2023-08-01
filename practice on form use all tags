@@ -1,0 +1,88 @@
+<html>
+<head><title>form and table</title>
+<style>
+<form style="backgroung">
+    table{
+        width: 50%;
+        height:35PX;
+        text-align: center;
+    }
+    table,tr,td{
+        border:2px solid black;
+        border-collapse: collapse;
+       
+    }
+</style>
+</head>
+<body>
+<table>
+<form>
+<tr>
+<td>*Name:</td>
+<td> <input type="" minlangth="6"> </td>
+</tr>
+<tr>
+<td>Father Name :</td>
+<td><input type="" minlangth="6"</td>
+</tr>
+<tr>
+<td>Mother name</td>
+<td><input type="" minlangth="6"</td>
+</tr>
+<tr>
+<td>DOB</td>
+<td><input type="date"</td>
+</tr>
+<tr>
+<td>*Enter Email ID</td>
+<td><input type="" required=""</td>
+</tr>
+<tr>
+<td>*Enter Phone number</td>
+<td><input type="" required="" min="10"</td>
+</tr>
+<tr>
+<td>*Gender</td>
+<td> male:<input type="radio" name="gender">
+Female:<input type="radio" name="gender">
+</td>
+</tr>
+<tr>
+<td>*Marks in final exam</td>
+<td><input type="number" max="500"></td>
+</tr>
+<tr>
+<td>*Parcentage in final exam</td>
+<td> <input type="number" max="100" required></td>
+</tr>
+<tr>
+<td>Instagram URL</td>
+<td><input type="url"></td>
+</tr>
+<tr>
+<td>Date of registration</td>
+<td><input type="date"></td>
+</tr>
+<tr>
+<td>Qualification</td>
+<td> 10<input type="checkbox" name="quali">
+ 12<input type="checkbox" name="quali">
+ graduation<input type="checkbox" name="quali">
+ post graduation<input type="checkbox" name="quali"></td>
+</tr>
+<tr>
+<td>Login password</td>
+<td><input type="password" minlangth="6" maxlamgth="10"><td>
+</tr>
+<td>SUBMIT</td>
+<td><input type="submit"</td>
+</tr>
+</tr>
+<td>RESET</td>
+<td><input type="reset"</td>
+</tr>
+</form>
+</table>
+
+</body>
+</html>
