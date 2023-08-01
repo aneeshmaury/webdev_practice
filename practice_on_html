@@ -1,0 +1,65 @@
+<html>
+<head><title>practice on css 1</title>
+<style>
+.header{
+height:20px;
+width:506px;
+border:2px solid black;
+text-align:center;
+}
+.navigation{
+heigth:20px;
+width:506px;
+border:2px solid black;
+text-align:center;
+}
+.content1{
+height:200px;
+width:98px;
+border:2px solid black;
+text-align:center;
+margin-top:2px;
+
+
+float:left;
+}
+.main{
+height:200px;
+width:300px;
+border:2px solid black;
+text-align:center;
+float:left;
+margin-left:2px;
+
+margin-top:2px;
+
+}
+.content2{
+height:200px;
+width:98px;
+border:2px solid black;
+text-align:center;
+float:left;
+margin-left:2px;
+margin-top:2px;
+}
+.footer{
+height:20px;
+width:506px;
+border:2px solid black;
+text-align:center;
+margin-top: 242px;
+}
+</style>
+
+</head>
+<body>
+<p class="header">Header</p>
+<p class="navigation"> Nevigation Menu</p>
+<p class="content1">Content</p>
+<P class="main"> Main content</p>
+<p class="content2">Content</p>
+<p class="footer">Footer</p>
+
+</body>
+</html>
